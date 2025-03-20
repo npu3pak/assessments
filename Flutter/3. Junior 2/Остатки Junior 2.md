@@ -1,16 +1,3 @@
-1. MVC
-- Слой Model
-- Слой View
-- Слой Controller
-- Особенности MVVM
-
-2. Проблемы многопоточности
-- Гонки
-- Dead/Live Lock
-- Инверсия приоритетов
-- Throttle, Debounce
-- Пакет synchronized
-
 3. Принцип Composition over inheritance
 - Преимущества подхода
 - Недостатки подхода
