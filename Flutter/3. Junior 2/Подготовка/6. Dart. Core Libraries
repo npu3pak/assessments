@@ -1,0 +1,312 @@
+# Dart Core Libraries
+
+---
+
+## Введение в Core Libraries
+Core Libraries — это набор стандартных библиотек Dart, предоставляющих базовые функции для работы с:
+- Строками и регулярными выражениями
+- URI и датами
+- Кодировками и сетевыми взаимодействиями
+- Случайными числами и временем
+
+Эти библиотеки доступны "из коробки" и не требуют дополнительных зависимостей.
+
+---
+
+## 1. Работа со строками
+### Основные операции
+```dart
+// Создание строк
+String s1 = 'Single quotes';
+String s2 = "Double quotes";
+String s3 = '''
+Multi-line
+string
+''';
+
+// Конкатенация
+String fullName = 'John' + ' ' + 'Doe';
+
+// Интерполяция
+String greeting = 'Hello, ${fullName.toUpperCase()}!';
+
+// Методы
+bool contains = s1.contains('Single'); // true
+String replaced = s2.replaceAll('quotes', 'marks'); 
+List<String> parts = 'a,b,c'.split(',');
+```
+
+### Полезные методы
+```dart
+// Проверки
+print('123'.isEmpty); // false
+print(''.isNotEmpty); // false
+
+// Преобразования
+print('Hello'.padLeft(10)); // '   Hello'
+print('DART'.toLowerCase()); // 'dart'
+
+// Поиск
+print('apple'.indexOf('p')); // 1
+print('banana'.lastIndexOf('a')); // 5
+```
+
+---
+
+## 2. Регулярные выражения
+### Базовое использование
+```dart
+RegExp regex = RegExp(r'\d+'); // Поиск чисел
+String input = 'ID: 123, Amount: 456';
+
+// Поиск первого совпадения
+Match? firstMatch = regex.firstMatch(input);
+print(firstMatch?.group(0)); // '123'
+
+// Поиск всех совпадений
+Iterable<Match> allMatches = regex.allMatches(input);
+allMatches.forEach((m) => print(m.group(0))); // 123, 456
+
+// Проверка соответствия
+print(regex.hasMatch('abc')); // false
+```
+
+### Пример: Валидация email
+```dart
+bool isValidEmail(String email) {
+  return RegExp(r'^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$').hasMatch(email);
+}
+```
+
+---
+
+## 3. Работа с URI
+### Парсинг и конструирование
+```dart
+// Парсинг
+Uri uri = Uri.parse('https://example.com:8080/path?q=1#fragment');
+print(uri.scheme); // https
+print(uri.host); // example.com
+print(uri.port); // 8080
+
+// Создание URI со всеми параметрами
+var complexUri = Uri(
+  scheme: 'https',
+  userInfo: 'user:password',
+  host: 'example.com',
+  port: 8080,
+  path: '/api/v1/users',
+  queryParameters: {'page': '2'},
+  fragment: 'details'
+);
+print(complexUri.toString()); 
+// https://user:password@example.com:8080/api/v1/users?page=2#details
+
+// Модификация существующего URI
+Uri modifiedUri = uri.replace(
+  scheme: 'http',
+  path: '/new-path',
+  queryParameters: {'filter': 'active'}
+);
+print(modifiedUri); // http://example.com:8080/new-path?filter=active#fragment
+```
+
+### Работа с query-параметрами
+```dart
+// Добавление параметров
+var params = Map<String, dynamic>.from(modifiedUri.queryParameters);
+params['sort'] = 'name';
+
+// Кодирование параметров
+String encodedParams = Uri(queryParameters: params).query;
+print(encodedParams); // filter=active&sort=name
+```
+
+---
+
+## 4. Работа с датами и временем
+### Основные операции
+```dart
+DateTime now = DateTime.now();
+DateTime utcNow = DateTime.now().toUtc();
+
+// Создание конкретной даты
+DateTime moonLanding = DateTime.parse('1969-07-20 20:18:04Z');
+
+// Форматирование (требуется пакет intl)
+import 'package:intl/intl.dart';
+String formatted = DateFormat('yyyy-MM-dd HH:mm').format(now);
+
+// Разница времени
+Duration difference = now.difference(moonLanding);
+print(difference.inDays); // Количество дней с момента высадки
+
+// Unix timestamp
+int timestamp = now.millisecondsSinceEpoch;
+DateTime fromTimestamp = DateTime.fromMillisecondsSinceEpoch(timestamp);
+```
+
+### UTC vs Local Time
+- **UTC (Coordinated Universal Time)** — всемирный стандарт времени, не зависит от часовых поясов.
+- **Локальное время** — время в текущей временной зоне устройства.
+- **Z (Zulu Time)** — обозначение UTC в формате ISO 8601.
+
+```dart
+// Преобразование в UTC
+DateTime localTime = DateTime.now();
+DateTime utcTime = localTime.toUtc();
+
+// Форматирование с Z
+String isoString = utcTime.toIso8601String(); // 2023-07-20T12:34:56.789Z
+
+// Разница часовых поясов
+Duration offset = localTime.timeZoneOffset;
+print('Часовой пояс: ${offset.inHours} часов');
+```
+
+---
+
+## 5. Генерация случайных чисел
+### Базовый генератор
+```dart
+import 'dart:math';
+
+Random random = Random();
+
+// Случайное целое
+int dice = random.nextInt(6) + 1;
+
+// Случайное double [0.0, 1.0)
+double percent = random.nextDouble();
+
+// Генерация списка
+List<int> randomList = List.generate(5, (_) => random.nextInt(100));
+```
+
+### Криптобезопасный генератор
+```dart
+import 'dart:math';
+import 'dart:convert';
+import 'dart:typed_data';
+
+var random = Random.secure();
+Uint8List bytes = Uint8List(16);
+for (int i = 0; i < bytes.length; i++) {
+  bytes[i] = random.nextInt(256);
+}
+print(base64Encode(bytes)); // Случайная строка в base64
+```
+
+---
+
+## 6. Кодировки символов и Windows-1251
+### Преобразование строк
+```dart
+// String → UTF-8 bytes
+String text = 'Привет, 你好';
+List<int> bytes = utf8.encode(text);
+
+// UTF-8 bytes → String
+String decoded = utf8.decode(bytes);
+
+// Пример с Windows-1251 (требуется пакет win1251)
+import 'package:win1251/win1251.dart';
+
+List<int> win1251Bytes = [0xCF, 0xF0, 0xE8, 0xE2, 0xE5, 0xF2]; // "Привет"
+String utf8Text = decodeWindows1251(win1251Bytes); // Конвертация в UTF-8
+List<int> convertedBack = encodeWindows1251(utf8Text); // Обратная конвертация
+```
+
+---
+
+## 7. Класс HttpServer
+### Обработка GET/POST запросов
+```dart
+import 'dart:io';
+import 'dart:convert';
+
+void main() async {
+  final server = await HttpServer.bind('localhost', 8080);
+  print('Server running on ${server.address}:${server.port}');
+
+  await for (HttpRequest request in server) {
+    switch (request.method) {
+      case 'GET':
+        request.response
+          ..write('GET: ${request.uri.queryParameters}')
+          ..close();
+        break;
+
+      case 'POST':
+        String body = await request.transform(utf8.decoder).join();
+        request.response
+          ..write('POST Body: $body')
+          ..close();
+        break;
+    }
+  }
+}
+```
+
+### WebSocket Server
+```dart
+HttpServer.bind('localhost', 8081).then((server) {
+  server.listen((request) {
+    if (WebSocketTransformer.isUpgradeRequest(request)) {
+      WebSocketTransformer.upgrade(request).then((ws) {
+        ws.listen(
+          (data) => ws.add('Echo: $data'),
+          onDone: () => print('Connection closed'),
+        );
+      });
+    }
+  });
+}
+```
+
+---
+
+## Практическое задание
+1. Создайте URI-билдер, который:
+   - Принимает базовый URL
+   - Динамически добавляет путь и query-параметры
+   - Конвертирует результат в строку с правильным кодированием
+
+2. Реализуйте конвертер дат:
+   - Принимает дату в формате ISO 8601
+   - Преобразует в локальное время и UTC
+   - Форматирует результат с указанием временной зоны
+
+3. Напишите сервер, который:
+   - Отдает случайное число при GET-запросе
+   - Сохраняет данные из POST-запроса в файл
+   - Поддерживает WebSocket для чата
+
+---
+
+## Контрольные вопросы
+1. Как получить параметр `page` из URI `http://site.com?page=2&filter=new`?
+2. Чем отличается `DateTime.now()` от `DateTime.now().toUtc()`?
+3. Как закодировать строку с пробелами для URL?
+4. Почему `Random.secure()` безопаснее обычного `Random()`?
+5. Как обработать поврежденные данные при декодировании UTF-8?
+6. Какие методы используются для работы с WebSocket в Dart?
+7. Как преобразовать список байт Win1251 в строку UTF-8?
+
+---
+
+## Литература и ссылки
+1. **Официальная документация**:
+   - [Dart Core Libraries](https://api.dart.dev/stable/dart-core/dart-core-library.html)
+   - [HttpServer Class](https://api.dart.dev/stable/dart-io/HttpServer-class.html)
+
+2. **Пакеты**:
+   - [intl](https://pub.dev/packages/intl) для форматирования дат
+   - [win1251](https://pub.dev/packages/win1251) для работы с кодировкой
+
+3. **Статьи**:
+   - [Полное руководство по времени в Dart](https://dart.dev/articles/libraries/dates-and-times)
+
+4. **Практика**:
+   - [DartPad для экспериментов](https://dartpad.dev/)
+   - [Примеры серверов на Dart](https://github.com/dart-lang/samples/tree/master/server)
