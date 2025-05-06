@@ -1,0 +1,1514 @@
+[
+    {
+        "level": "Intern",
+        "topic": "01. Сложность алгоритмов Big O",
+        "details": [
+            "Объяснение концепции",
+            "Примеры для разных алгоритмов"
+        ]
+    },
+    {
+        "level": "Intern",
+        "topic": "02. Алгоритмы",
+        "details": [
+            "Бинарный поиск",
+            "Быстрая сортировка"
+        ]
+    },
+    {
+        "level": "Intern",
+        "topic": "03. Структуры данных",
+        "details": [
+            "Списки",
+            "Словари",
+            "Стек",
+            "Очередь",
+            "Дерево",
+            "Бинарное дерево"
+        ]
+    },
+    {
+        "level": "Intern",
+        "topic": "04. Рекурсия",
+        "details": [
+            "Рассказать, что такое рекурсия",
+            "Привести пример решения одной и той же задачи с помощью рекурсии и без нее"
+        ]
+    },
+    {
+        "level": "Intern",
+        "topic": "05. Принципы ООП",
+        "details": [
+            "Перечислить принципы и рассказать подробнее о каждом из них"
+        ]
+    },
+    {
+        "level": "Intern",
+        "topic": "06. Принцип DRY",
+        "details": [
+            "Рассказать о принципе DRY. Почему он важен. Когда им не следует пользоваться"
+        ]
+    },
+    {
+        "level": "Intern",
+        "topic": "07. Принцип KISS",
+        "details": [
+            "Рассказать о принципе KISS. Почему он важен. Как определить, что принцип не соблюдается"
+        ]
+    },
+    {
+        "level": "Intern",
+        "topic": "08. Клиент-серверная архитектура",
+        "details": [
+            "Описать роли клиента и сервера",
+            "Привести примеры"
+        ]
+    },
+    {
+        "level": "Intern",
+        "topic": "09. Конечный автомат",
+        "details": [
+            "Определение конечного автомата",
+            "Привести пример описания конечного автомата с помощью программного кода"
+        ]
+    },
+    {
+        "level": "Intern",
+        "topic": "10. Git",
+        "details": [
+            "Ветви. Переключение между ветвями",
+            "Commit",
+            "Push",
+            "Pull и Fetch"
+        ]
+    },
+    {
+        "level": "Intern",
+        "topic": "11. Протокол HTTP",
+        "details": [
+            "URL. Составные части.",
+            "Типы запроса: POST, GET, другие типы",
+            "Что такое Headers",
+            "Что такое тело запроса",
+            "Типовые коды ответа: 200, 201, 204, 301, 400, 401, 404, 500"
+        ]
+    },
+    {
+        "level": "Intern",
+        "topic": "12. XML",
+        "details": [
+            "Краткое описание назначения",
+            "Doctype",
+            "Кодирование запрещенных символов",
+            "Комментарии",
+            "Теги",
+            "Атрибуты",
+            "DOM",
+            "Что такое валидатор",
+            "Что такое парсер"
+        ]
+    },
+    {
+        "level": "Intern",
+        "topic": "13. JSON",
+        "details": [
+            "Краткое описание назначения",
+            "Какие типы данных доступны",
+            "Как описать вложенные объекты",
+            "Что такое JSON Schema"
+        ]
+    },
+    {
+        "level": "Intern",
+        "topic": "14. БД и SQL",
+        "details": [
+            "Основные концепции реляционных БД",
+            "Понятие нормализации",
+            "Primary Key",
+            "SQL. Select, Insert, Update, Delete",
+            "SQL. Create Table, Drop Table, Alter Table",
+            "Left, Right, Inner Join",
+            "Зачем нужны ERD и как их создавать"
+        ]
+    },
+    {
+        "level": "Intern",
+        "topic": "15. Растровая и векторная графика",
+        "details": [
+            "Отличие растровой и векторной графики",
+            "Редактирование растровой и векторной графики",
+            "Преобразование SVG в PNG"
+        ]
+    },
+    {
+        "level": "Intern",
+        "topic": "16. Dart. Sound Null Safety",
+        "details": [
+            "Что такое nullable типы",
+            "Проверка на null",
+            "Модификатор late и ленивая инициализация"
+        ]
+    },
+    {
+        "level": "Intern",
+        "topic": "17. Dart. Асинхронные функции",
+        "details": [
+            "Future, async/await",
+            "Future.wait",
+            "Класс Completer"
+        ]
+    },
+    {
+        "level": "Intern",
+        "topic": "18. Dart. Обработка ошибок",
+        "details": [
+            "Отличие Exception и Error.",
+            "Try-catch-finally",
+            "Обработка ошибок в асинхронных функциях"
+        ]
+    },
+    {
+        "level": "Intern",
+        "topic": "19. Dart. Замыкания и вложенные функции",
+        "details": [
+            "Замыкания",
+            "Вложенные функции",
+            "Использование typedef для описания типа замыканий"
+        ]
+    },
+    {
+        "level": "Intern",
+        "topic": "20. Flutter. Основные виджеты",
+        "details": [
+            "Icon",
+            "AppBar",
+            "Container",
+            "LayoutBuilder",
+            "Scaffold",
+            "Text и кастомизация текста",
+            "Column и Row",
+            "AspectRatio",
+            "ConstrainedBox и UnconstrainedBox",
+            "Expanded и Flex",
+            "FittedBox",
+            "Offstage",
+            "OverflowBox",
+            "IntrinsicHeight и IntrinsicWidth",
+            "Opacity",
+            "Transform",
+            "ClipRect",
+            "ListView и GridView"
+        ]
+    },
+    {
+        "level": "Junior 1",
+        "topic": "01. Паттерны",
+        "details": [
+            "Singleton. Возможные проблемы. Реализация с помощью Kiwi.",
+            "Mediator",
+            "Strategy",
+            "Facade"
+        ]
+    },
+    {
+        "level": "Junior 1",
+        "topic": "02. SOLID",
+        "details": [
+            "Single Responsibility. Описание. Как нарушить?",
+            "Open-Closed Principle. Описание. Старая и новая трактовка принципа. Как нарушить?",
+            "Liskov Substitution. Описание. Как нарушить?",
+            "Interface Segregation. Описание. Как нарушить?",
+            "Dependency Inversion. Описание. Как нарушить? Отличие от Dependency Injection."
+        ]
+    },
+    {
+        "level": "Junior 1",
+        "topic": "03. Чистые функции",
+        "details": [
+            "Объяснение концепции",
+            "Преимущества",
+            "Примеры"
+        ]
+    },
+    {
+        "level": "Junior 1",
+        "topic": "04. REST-клиент",
+        "details": [
+            "Основные понятия",
+            "Примеры REST и не REST",
+            "Понятие RESTful",
+            "Использование http. Отправка запроса. Обработка результата. Обработка ошибок",
+            "Использование dio. Преимущества перед http"
+        ]
+    },
+    {
+        "level": "Junior 1",
+        "topic": "05. DI",
+        "details": [
+            "Описание принципов",
+            "Способы внедрения зависимостей",
+            "Локатор сервисов и связанные с ним проблемы",
+            "Возможности и ограничения библиотеки Kiwi",
+            "Циклические зависимости. Способы решения проблемы"
+        ]
+    },
+    {
+        "level": "Junior 1",
+        "topic": "06. Immutability",
+        "details": [
+            "Объяснение концепции mutable/immutable объектов",
+            "Преимущества immutable объектов",
+            "Реализация immutable объектов в dart"
+        ]
+    },
+    {
+        "level": "Junior 1",
+        "topic": "07. Отладка",
+        "details": [
+            "Возможности отладки с помощью Breakpoints",
+            "Возможности отладки при возникновении исключений",
+            "Логирование в консоли. Приемы использования Print",
+            "Логирование в файлы",
+            "Бисекция",
+            "Assert",
+            "Анализ Stack Trace"
+        ]
+    },
+    {
+        "level": "Junior 1",
+        "topic": "08. Работа с Json",
+        "details": [
+            "jsonEncode и jsonDecode",
+            "Библиотека typed_json"
+        ]
+    },
+    {
+        "level": "Junior 1",
+        "topic": "09. Хранение настроек пользователя",
+        "details": [
+            "Способы хранения настроек пользователя",
+            "Какие библиотеки или встроенные механизмы можно использовать?"
+        ]
+    },
+    {
+        "level": "Junior 1",
+        "topic": "10. Модульные тесты",
+        "details": [
+            "Структура",
+            "Запуск",
+            "Использование mock-объектов",
+            "Тестирование Cubit",
+            "Тестирование репозиториев"
+        ]
+    },
+    {
+        "level": "Junior 1",
+        "topic": "11. GitLab",
+        "details": [
+            "Как сделать Merge Request",
+            "Как провести ревью MR",
+            "Как найти ненужные ветви Git",
+            "Gitlab CI"
+        ]
+    },
+    {
+        "level": "Junior 1",
+        "topic": "12. Git Flow",
+        "details": [
+            "Ветви Develop, Feature, Release, Fix, Hotfix, Master",
+            "Действия при доработке develop и release веток",
+            "Действия при публикации релизов"
+        ]
+    },
+    {
+        "level": "Junior 1",
+        "topic": "13. FVM",
+        "details": [
+            "Описание",
+            "Подключение к проекту",
+            "Настройка используемой версии Flutter",
+            "Глобальная версия Flutter"
+        ]
+    },
+    {
+        "level": "Junior 1",
+        "topic": "14. Mockoon",
+        "details": [
+            "Зачем нужен Mockoon",
+            "Как запустить Mockoon в режиме прокси-сервера",
+            "Как отправлять запросы в Mockoon из эмулятора Android",
+            "Как посмотреть логи",
+            "Как переопределить запросы сервера",
+            "Как сделать несколько заглушек для одного запроса и переключаться между ними",
+            "Как указать таймаут обработки запросов"
+        ]
+    },
+    {
+        "level": "Junior 1",
+        "topic": "15. Dart. Наследование",
+        "details": [
+            "Описать основные принципы наследования классов",
+            "Модификатор base",
+            "Модификаторы abstract, interface и abstract interface",
+            "Модификатор final",
+            "Модификатор sealed",
+            "Extensions"
+        ]
+    },
+    {
+        "level": "Junior 1",
+        "topic": "16. Dart. Stream API",
+        "details": [
+            "Stream, Broadcast Stream",
+            "Sink",
+            "StreamController",
+            "Функции-генераторы"
+        ]
+    },
+    {
+        "level": "Junior 1",
+        "topic": "17. Dart. Коллекции",
+        "details": [
+            "Стандартные коллекции и их назначение",
+            "Spread operator",
+            "Использование if и for в объявлении коллекции",
+            "Возможности пакета collection"
+        ]
+    },
+    {
+        "level": "Junior 1",
+        "topic": "18. Dart. Идентичность объектов",
+        "details": [
+            "Как обеспечить возможность проверки идентичности объектов",
+            "Свойство hashCode",
+            "Пакет equatable"
+        ]
+    },
+    {
+        "level": "Junior 1",
+        "topic": "19. Flutter. Загрузка ресурсов из Assets",
+        "details": [
+            "Как описать Assets в pubspec.yaml",
+            "Как показать растровое изображение из assets",
+            "Как использовать шрифт из assets"
+        ]
+    },
+    {
+        "level": "Junior 1",
+        "topic": "20. Flutter. Bloc",
+        "details": [
+            "Архитектура. Представление, Bloc, Repository, Data Provider",
+            "Взаимодействие между несколькими Bloc/Cubit",
+            "Взаимодействие между несколькими Repository",
+            "Отличия Bloc и Cubit. Когда их применять",
+            "Принципы именования классов состояний Bloc/Cubit",
+            "BlocProvider, BlocConsumer, BlocListener, BlocBuilder, MultiBlocProvider, BlocSelector",
+            "Вызов методов Bloc/Cubit в представлении"
+        ]
+    },
+    {
+        "level": "Junior 1",
+        "topic": "21. pub",
+        "details": [
+            "Общие сведения",
+            "Указание версии зависимостей",
+            "dev_dependencies",
+            "dependency_overrides",
+            "pub.dev"
+        ]
+    },
+    {
+        "level": "Junior 1",
+        "topic": "22. Flutter CLI",
+        "details": [
+            "Сборка приложения",
+            "Запуск приложения",
+            "Подключение отладчика к приложению"
+        ]
+    },
+    {
+        "level": "Junior 1",
+        "topic": "23. Flutter Inspector и Outline",
+        "details": [
+            "Зачем нужен Flutter Inspector",
+            "Как запустить Flutter Inspector",
+            "Показ и скрытие цветного индикатора перерисовки виджетов",
+            "Зачем нужна панель Outline"
+        ]
+    },
+    {
+        "level": "Junior 2",
+        "topic": "01. MVC",
+        "details": [
+            "Слой Model",
+            "Слой View",
+            "Слой Controller",
+            "Особенности MVVM"
+        ]
+    },
+    {
+        "level": "Junior 2",
+        "topic": "02. Проблемы многопоточности",
+        "details": [
+            "Гонки",
+            "Dead/Live Lock",
+            "Инверсия приоритетов",
+            "Throttle, Debounce",
+            "Пакет synchronized"
+        ]
+    },
+    {
+        "level": "Junior 2",
+        "topic": "03. Принцип Composition over inheritance",
+        "details": [
+            "Преимущества подхода",
+            "Недостатки подхода",
+            "Mixins в dart"
+        ]
+    },
+    {
+        "level": "Junior 2",
+        "topic": "04. Интеграционное тестирование Flutter",
+        "details": [
+            "Назначение и возможности интеграционного тестирования",
+            "Написание интеграционных тестов",
+            "Запуск интеграционных тестов"
+        ]
+    },
+    {
+        "level": "Junior 2",
+        "topic": "05. Dart. Generics",
+        "details": [
+            "Объяснение концепции",
+            "Ключевое слово dynamic. Недостатки по сравнению с generics.",
+            "Generics в функциях",
+            "Generics в классах"
+        ]
+    },
+    {
+        "level": "Junior 2",
+        "topic": "06. Dart. Core libraries",
+        "details": [
+            "Работа со строками",
+            "Работа с регулярными выражениями",
+            "Работа с URI",
+            "Разбор и форматирование дат. Понятие UTC и Zulu Time Zone. Время от начала эпохи.",
+            "Генерация случайных чисел",
+            "Понятие о кодировке символов. Кодирование/декодирование UTF-8",
+            "Класс HttpServer"
+        ]
+    },
+    {
+        "level": "Junior 2",
+        "topic": "07. Material Design",
+        "details": [
+            "Базовые принципы и определение Material",
+            "Компоненты 2 редакции",
+            "Компоненты 3 редакции",
+            "Отличия 2 и 3 редакций"
+        ]
+    },
+    {
+        "level": "Junior 2",
+        "topic": "08. Apple HIG",
+        "details": [
+            "Назначение HIG",
+            "Принципы HIG, применимые к iOS",
+            "Принципы HIG, применимые к iPadOS",
+            "Стандартные UI компоненты, их возможности и решение задач с их помощью"
+        ]
+    },
+    {
+        "level": "Junior 2",
+        "topic": "09. Flutter. Material Widgets",
+        "details": [
+            "Что такое Material Widgets",
+            "Виджет Material",
+            "Какие Material Widgets есть в комплекте Flutter"
+        ]
+    },
+    {
+        "level": "Junior 2",
+        "topic": "10. Flutter. Cupertino Widgets",
+        "details": [
+            "Что такое Cupertino Widgets",
+            "Какие Cupertino Widgets есть в комплекте Flutter"
+        ]
+    },
+    {
+        "level": "Middle 1",
+        "topic": "01. Паттерны",
+        "details": [
+            "Builder",
+            "Factory, фабричный метод, абстрактная фабрика",
+            "Delegate",
+            "Wrapper",
+            "Observer",
+            "Composite"
+        ]
+    },
+    {
+        "level": "Middle 1",
+        "topic": "02. Работа с файлами",
+        "details": [
+            "Где можно хранить файлы в Android и iOS",
+            "Какие разрешения требуется запросить в мобильных ОС",
+            "Как работать с каталогами и файлами: получение списка элементов, создание, удаление, переименование, копирование, получение метаданных",
+            "Как прочитать файл",
+            "Как записать данные в файл"
+        ]
+    },
+    {
+        "level": "Middle 1",
+        "topic": "03. Запрос разрешений",
+        "details": [
+            "Разрешения для доступа к каталогу на Android",
+            "Разрешения для доступа к камере и микрофону",
+            "Разрешения для доступа к геолокации в режиме foreground на iOS и Android",
+            "Разрешения для доступа к геолокации в режиме background на iOS и Android",
+            "Разрешения для доступа к каталогу ФС на Android",
+            "Плагин permission_handler. Настройка и возможности"
+        ]
+    },
+    {
+        "level": "Middle 1",
+        "topic": "04. Push-уведомления",
+        "details": [
+            "Объяснение концепции",
+            "Какие есть сервисы Push-уведомлений и чем они отличаются",
+            "Отличие сигнальных Push и Push-уведомлений без деталей реализации",
+            "Запрос разрешений. Особенности на Android",
+            "Работа с Push Token",
+            "Настройка приложения для получения Push-уведомлений Firebase",
+            "Отличие приема Push в Foreground и Background",
+            "Отправка Push-уведомлений через консоль Firebase",
+            "Отправка Push-уведомлений через gorush при наличии json-файла с ключом"
+        ]
+    },
+    {
+        "level": "Middle 1",
+        "topic": "05. Foreground Geolocation",
+        "details": [
+            "Отличия геолокации в режимах Foreground и Background",
+            "Определение местоположения пользователя в режиме Foreground",
+            "Отслеживание перемещений пользователя в режиме Foreground",
+            "Сторонние библиотеки для работы с геолокацией",
+            "Прямое и обратное геокодирование"
+        ]
+    },
+    {
+        "level": "Middle 1",
+        "topic": "06. WebView",
+        "details": [
+            "Сравнение flutter_inappwebview и webview_flutter",
+            "Работа с cookies в flutter_inappwebview",
+            "Custom Tabs в Android. Описание, возможности, ограничения, проблемы"
+        ]
+    },
+    {
+        "level": "Middle 1",
+        "topic": "07. Работа с Web Socket",
+        "details": [
+            "Описание механизма",
+            "Пакет web_socket_channel",
+            "Centrifuge"
+        ]
+    },
+    {
+        "level": "Middle 1",
+        "topic": "08. Камера",
+        "details": [
+            "Получение фото с камеры",
+            "Получение видео с камеры",
+            "Сканирование QR-кодов",
+            "Кастомизация интерфейса камеры"
+        ]
+    },
+    {
+        "level": "Middle 1",
+        "topic": "09. Биометрия",
+        "details": [
+            "Возможности биометрической аутентификации на iOS",
+            "Возможности биометрической аутентификации на Android",
+            "Пакет local_auth"
+        ]
+    },
+    {
+        "level": "Middle 1",
+        "topic": "10. Разбор XML/HTML",
+        "details": [
+            "Работа с DOM-парсером в dart",
+            "Работа с SAX-парсером в dart",
+            "Понятие XSLT",
+            "Работа с XPath в dart"
+        ]
+    },
+    {
+        "level": "Middle 1",
+        "topic": "11. NoSQL",
+        "details": [
+            "NoSQL. Область применения и возможности.",
+            "Hive. Описание возможностей",
+            "Hive. Работа с примитивными типами",
+            "Hive. Работа с объектами",
+            "Hive. Транзакции"
+        ]
+    },
+    {
+        "level": "Middle 1",
+        "topic": "12. Sqlite",
+        "details": [
+            "Описание",
+            "Работа в командной строке",
+            "Поддерживаемые типы данных",
+            "Плагины для работы с Sqlite",
+            "Инструменты для проектирования и генерации таблиц с поддержкой Sqlite",
+            "Что такое миграции и как их выполнять"
+        ]
+    },
+    {
+        "level": "Middle 1",
+        "topic": "13. Dart Best Practices",
+        "details": [
+            "Linter. Что такое, как подключить и настроить?",
+            "Стиль кода (Style Guide)",
+            "Документирование (Documentation Guide)",
+            "Использование конструкций языка (Usage Guide)",
+            "Проектирование (Design Guide)"
+        ]
+    },
+    {
+        "level": "Middle 1",
+        "topic": "14. Flutter. Keys",
+        "details": [
+            "Типы и назначение разных типов ключей",
+            "Использование GlobalKey для получения информации об отображении объектов",
+            "Использование ключей для перерисовки Stateful Widgets"
+        ]
+    },
+    {
+        "level": "Middle 1",
+        "topic": "15. Flutter. Inherited Widgets",
+        "details": [
+            "Что такое Inherited Widgets",
+            "Как пользоваться Inherited Widgets",
+            "Привести примеры стандартных Inherited Widgets"
+        ]
+    },
+    {
+        "level": "Middle 1",
+        "topic": "16. Flutter. ThemeData",
+        "details": [
+            "Что такое ThemeData и как с помощью нее можно управлять внешним видом элементов",
+            "Какие параметры можно настроить в ThemeData",
+            "Как сделать поддержку разных цветовых схем с использованием ThemeData",
+            "Как для разных тем оформления кастомизировать произвольные параметры, например тени"
+        ]
+    },
+    {
+        "level": "Middle 1",
+        "topic": "17. Flutter. ChangeNotifier",
+        "details": [
+            "Описание механизма",
+            "Примеры использования"
+        ]
+    },
+    {
+        "level": "Middle 1",
+        "topic": "18. Flutter. ValueNotifier",
+        "details": [
+            "Описание механизма",
+            "Примеры использования"
+        ]
+    },
+    {
+        "level": "Middle 1",
+        "topic": "19. Flutter. Распознавание жестов",
+        "details": [
+            "Возможности GestureDetector",
+            "Возможности InkWell",
+            "Реализация Drag and drop"
+        ]
+    },
+    {
+        "level": "Middle 1",
+        "topic": "20. Flutter. Анимация",
+        "details": [
+            "Implicit Animations",
+            "Explicit Animations",
+            "TweenAnimationBuilder",
+            "Animation Controller",
+            "AnimatedBuilder, AnimatedWidget",
+            "Lottie"
+        ]
+    },
+    {
+        "level": "Middle 1",
+        "topic": "21. Flutter. Адаптирование приложений для разных экранов",
+        "details": [
+            "Плотность пикселей",
+            "Возможность настройки масштабирования текста в iOS и Android",
+            "Поддержка и ограничения масштабирования текста",
+            "Виджет SafeArea",
+            "MediaQuery. Что такое, как работает, какие есть возможности?",
+            "LayoutBuilder",
+            "GridView",
+            "Ограничение поворота экрана",
+            "Определение поворота экрана",
+            "Best Practices"
+        ]
+    },
+    {
+        "level": "Middle 2",
+        "topic": "01. Oauth 2",
+        "details": [
+            "Общее описание",
+            "Access token и подпись запросов",
+            "Refresh token и обновление access token",
+            "СУДИР, требования к безопасности",
+            "СУДИР, алгоритм для мобильных приложений",
+            "СУДИР, алгоритм для веб"
+        ]
+    },
+    {
+        "level": "Middle 2",
+        "topic": "02. Управление памятью",
+        "details": [
+            "Утечки памяти. Причины и последствия. Zombie objects в iOS.",
+            "ARC. Принцип работы, преимущества, недостатки.",
+            "Garbage Collection. Принцип работы, преимущества, недостатки."
+        ]
+    },
+    {
+        "level": "Middle 2",
+        "topic": "03. Работа с JS",
+        "details": [
+            "Пакет flutter_js",
+            "Вызов функции JS из Dart",
+            "Вызов функции Dart из JS"
+        ]
+    },
+    {
+        "level": "Middle 2",
+        "topic": "04. Deep Links",
+        "details": [
+            "Перехват URI с кастомной scheme в мобильном приложении iOS и Android",
+            "Android App Links",
+            "Huawei App Linking",
+            "Выполнение перехода в мобильном приложении"
+        ]
+    },
+    {
+        "level": "Middle 2",
+        "topic": "05. Фоновая геолокация",
+        "details": [
+            "Технологии, использующие фоновую геолокацию",
+            "Geofencing. Описание технологии",
+            "Geofencing. Ограничения iOS и Android",
+            "Geofencing. Запрос разрешений на iOS и Android",
+            "Geofencing. Требования для публикации на iOS и Android",
+            "Отслеживание значительных перемещений пользователя"
+        ]
+    },
+    {
+        "level": "Middle 2",
+        "topic": "06. Сигнальные Push",
+        "details": [
+            "Отличие сигнальных Push от уведомлений",
+            "Отправка сигнальных Push на iOS и Android",
+            "Прием сигнальных Push в foreground и background"
+        ]
+    },
+    {
+        "level": "Middle 2",
+        "topic": "07. Отправка Form Data",
+        "details": [
+            "Описание и назначение Form Data",
+            "Отправка Form Data на сервер с помощью dio"
+        ]
+    },
+    {
+        "level": "Middle 2",
+        "topic": "08. Загрузка файлов по сети",
+        "details": [
+            "Загрузка изображений по сети",
+            "Кэширование загруженных изображений",
+            "Проблемы при загрузке документов по сети на iOS и Android",
+            "Сравнение плагинов для загрузки документов по сети"
+        ]
+    },
+    {
+        "level": "Middle 2",
+        "topic": "09. Хранение чувствительных данных",
+        "details": [
+            "Организация защищенного хранилища на iOS",
+            "Организация защищенного хранилища на Android",
+            "Плагин flutter_secure_storage",
+            "Предотвращение резервного копирования для защищенного хранилища",
+            "Передача чувствительных данных как параметров при сборке приложения"
+        ]
+    },
+    {
+        "level": "Middle 2",
+        "topic": "10. Crashlytics",
+        "details": [
+            "Назначение",
+            "Настройка для Flutter на iOS и Android",
+            "Логирование ошибок",
+            "Логирование произвольной информации",
+            "Какая информация попадает в Crashlytics. Как ее отфильтровать",
+            "Как определить процент стабильных сессий",
+            "Как определить количество сбоев за последнее время",
+            "Файлы DSYM для iOS",
+            "Аналоги Crashlytics"
+        ]
+    },
+    {
+        "level": "Middle 2",
+        "topic": "11. Продвинутые возможности VSCode",
+        "details": [
+            "CodeLens",
+            "Настройка workspace",
+            "Snippets"
+        ]
+    },
+    {
+        "level": "Middle 2",
+        "topic": "12. Flutter. Accessibility",
+        "details": [
+            "Что нужно учитывать при разработке приложений для людей с ограниченными возможностями?",
+            "Адаптирование приложения для использования со Screen Readers"
+        ]
+    },
+    {
+        "level": "Middle 2",
+        "topic": "13. Flutter. Поддерживаемые архитектуры процессоров",
+        "details": [
+            "Что такое архитектура процессора?",
+            "Какие архитектуры процессоров поддерживаются Flutter?",
+            "Указание поддерживаемых архитектур при сборке Android-приложений"
+        ]
+    },
+    {
+        "level": "Middle 2",
+        "topic": "14. Flutter. Slivers",
+        "details": [
+            "Объяснение концепции",
+            "Отличие Sliver-виджетов от обычных",
+            "Виджет SliverToBoxAdapter",
+            "Виджет SliverAppBar",
+            "Виджеты SliverList и SliverGrid",
+            "Виджет CustomScrollView"
+        ]
+    },
+    {
+        "level": "Middle 2",
+        "topic": "15. Flutter. Canvas и CustomPainter",
+        "details": [
+            "Зачем нужен Canvas и когда им следует пользоваться?",
+            "Дерево виджетов для использования CustomPainter"
+        ]
+    },
+    {
+        "level": "Middle 2",
+        "topic": "16. Flutter. Clippers",
+        "details": [
+            "Назначение Clippers",
+            "ClipRect, ClipRRect, ClipOval",
+            "Работа с ClipPath"
+        ]
+    },
+    {
+        "level": "Middle 3 Flutter",
+        "topic": "01. Flutter. Взаимодействие с нативными модулями",
+        "details": [
+            "Описание механизма Platform Channels",
+            "Реализация канала на стороне Flutter и одной из нативных платформ",
+            "Как можно реализовать несколько каналов?",
+            "Поддерживаемые типы данных для передачи через канал",
+            "Передача результата через канал",
+            "Передача ошибок через канал"
+        ]
+    },
+    {
+        "level": "Middle 3 Flutter",
+        "topic": "02. Flutter. Создание плагинов",
+        "details": [
+            "Отличие терминов module, package и plugin",
+            "Создание нового плагина",
+            "Federated Plugins. Решаемые проблемы",
+            "Federated Plugins. Как определяется реализация в зависимости от платформы?",
+            "Federated Plugins. Пример реализации для iOS или Android",
+            "PlatformView"
+        ]
+    },
+    {
+        "level": "Middle 3 Android",
+        "topic": "01. Android. Activity",
+        "details": [
+            "Что такое Activity",
+            "Как создать Activity с простой версткой в xml",
+            "Как запустить Activity и передать в него данные",
+            "Жизненный цикл. Запуск",
+            "Жизненный цикл. Сворачивание и разворачивание",
+            "Жизненный цикл. Переход на новый экран",
+            "Сохранение и восстановление состояния. Parcelable"
+        ]
+    },
+    {
+        "level": "Middle 3 Android",
+        "topic": "02. Android. Прочие компоненты",
+        "details": [
+            "Service",
+            "Broadcast Receiver",
+            "Intent",
+            "IntentFilter",
+            "AndroidManifest.xml"
+        ]
+    },
+    {
+        "level": "Middle 3 Android",
+        "topic": "03. Android. Shared Preferences",
+        "details": [
+            "Как фактически хранятся данные в Shared Preferences",
+            "Как работать с Shared Preferences"
+        ]
+    },
+    {
+        "level": "Middle 3 Android",
+        "topic": "04. Android. Fragment",
+        "details": [
+            "Назначение",
+            "Как создать фрагмент с простой версткой в xml",
+            "Операции над фрагментами. Fragment Manager",
+            "Жизненный цикл фрагментов"
+        ]
+    },
+    {
+        "level": "Middle 3 Android",
+        "topic": "05. Android. Activity Tasks и Launch Modes",
+        "details": [
+            "Tasks и back stack",
+            "Параметр launchMode при запуске Activity"
+        ]
+    },
+    {
+        "level": "Middle 3 Android",
+        "topic": "06. Android. Основы верстки в xml",
+        "details": [
+            "Создание верстки в xml",
+            "Использование xml-верстки в Activity и Fragment",
+            "Обработка нажатий кнопки из xml в Activity или Fragment"
+        ]
+    },
+    {
+        "level": "Middle 3 Android",
+        "topic": "07. Android. Многопоточность с помощью Coroutines",
+        "details": [
+            "Отличие от потоков",
+            "Как создать и запустить Coroutines",
+            "Как обработать результат выполнения Coroutines",
+            "Как обрабатывать ошибки выполнения Coroutines"
+        ]
+    },
+    {
+        "level": "Middle 3 Android",
+        "topic": "08. Android. REST-клиент",
+        "details": [
+            "Работа с JSON с помощью Gson, Jackson или Moshi",
+            "Отправка запросов с помощью OkHttp или Retrofit"
+        ]
+    },
+    {
+        "level": "Middle 3 Android",
+        "topic": "09. Android. Взаимодействие с другими приложениями",
+        "details": [
+            "Использование Intents для открытия других приложений",
+            "Использование IntentFilters для обработки вызовов из других приложений",
+            "AccountManager, назначение и возможности"
+        ]
+    },
+    {
+        "level": "Middle 3 Android",
+        "topic": "10. Android. Ресурсы",
+        "details": [
+            "Класс R",
+            "Загрузка строковых ресурсов",
+            "Настройка тем в ресурсах",
+            "Растровая графика в ресурсах",
+            "Векторная графика в ресурсах",
+            "Цвета в ресурсах"
+        ]
+    },
+    {
+        "level": "Middle 3 Android",
+        "topic": "11. Android. Брендирование",
+        "details": [
+            "Базовая настройка темы приложения с помощью XML",
+            "Кастомизация названия",
+            "Кастомизация значика приложения",
+            "Кастомизация экрана запуска"
+        ]
+    },
+    {
+        "level": "Middle 3 Android",
+        "topic": "12. Android. Настройка обфускации",
+        "details": [
+            "Назначение обфускации",
+            "Подключение файла с правилами обфускации proguard-rules.pro",
+            "Настройка исключений для обфускации",
+            "Как добавить и настроить эмулятор Android",
+            "Как работать с файловой системой эмулятора",
+            "Ускорение с помощью HAXM. Описание. Поддерживаемые процессоры. Настройка"
+        ]
+    },
+    {
+        "level": "Middle 3 Android",
+        "topic": "13. Android. SDK Manager",
+        "details": [
+            "Просмотр, установка и удаление установленных компонентов SDK",
+            "SDK Platforms",
+            "SDK Build Tools",
+            "NDK",
+            "Google Play Services"
+        ]
+    },
+    {
+        "level": "Middle 3 Android",
+        "topic": "14. Android. Logcat",
+        "details": [
+            "Назначение",
+            "Фильтрация логов",
+            "Уровни логирования",
+            "Логирование в Logcat"
+        ]
+    },
+    {
+        "level": "Middle 3 Android",
+        "topic": "15. Android. Gradle",
+        "details": [
+            "Назначение",
+            "Настройка версии приложения",
+            "Добавление источника для скачивания сторонних библиотек",
+            "Свойство ndk.abiFilters",
+            "Объявление Build Variants",
+            "Добавление зависимостей"
+        ]
+    },
+    {
+        "level": "Middle 3 iOS",
+        "topic": "01. iOS. Swift",
+        "details": [
+            "Отличия class и struct",
+            "Nullable-типы и проверка на null",
+            "Конструкция guard и if let",
+            "Сильные и слабые ссылки",
+            "Замыкания"
+        ]
+    },
+    {
+        "level": "Middle 3 iOS",
+        "topic": "02. iOS. Настройка проекта",
+        "details": [
+            "Targets",
+            "Build Configurations",
+            "Build Schemes",
+            "Info.plist",
+            "Capabilities",
+            "Build Phases",
+            "Управление локализацией"
+        ]
+    },
+    {
+        "level": "Middle 3 iOS",
+        "topic": "03. iOS. Отладка",
+        "details": [
+            "Настройка break points. Остановка приложения при возникновении ошибок.",
+            "Выполнение команд p/po"
+        ]
+    },
+    {
+        "level": "Middle 3 iOS",
+        "topic": "04. iOS. ViewController",
+        "details": [
+            "Создание и запуск ViewController",
+            "Жизненный цикл ViewController",
+            "Верстка в Storyboard. Привязка UI компонентов Storyboard к ViewController",
+            "UITableViewController. Показ секций и ячеек, верстка ячеек в Storyboard, оптимизация потребления ресурсов при создании ячеек"
+        ]
+    },
+    {
+        "level": "Middle 3 iOS",
+        "topic": "05. iOS. NavigationController",
+        "details": [
+            "Навигация с помощью NavigationController. Принцип стека.",
+            "Внешний вид и поведение NavigationController при анимации",
+            "Стандартные transitions, доступные в NavigationController",
+            "Segues и передача данных при их использовании"
+        ]
+    },
+    {
+        "level": "Middle 3 iOS",
+        "topic": "06. iOS. Views",
+        "details": [
+            "Создание наследников UIView",
+            "Верстка UIView в Xib-файлах"
+        ]
+    },
+    {
+        "level": "Middle 3 iOS",
+        "topic": "07. iOS. Auto Layout",
+        "details": [
+            "Управление расположением элементов",
+            "Работа с Constraints",
+            "Hugging Priority и Compression Resistance",
+            "Size Classes"
+        ]
+    },
+    {
+        "level": "Middle 3 iOS",
+        "topic": "08. iOS. Swift UI",
+        "details": [
+            "Создание и комбинирование View",
+            "Создание превью",
+            "Построение списков",
+            "Навигация",
+            "Анимация",
+            "Ввод текста",
+            "Взаимодействие с UIKit"
+        ]
+    },
+    {
+        "level": "Middle 3 iOS",
+        "topic": "09. iOS. Хранение настроек",
+        "details": [
+            "Работа с UserDefaults",
+            "Работа с Keychain, библиотека KeychainSwift"
+        ]
+    },
+    {
+        "level": "Middle 3 iOS",
+        "topic": "10. iOS. Брендирование",
+        "details": [
+            "Базовая настройка темы приложения с помощью Appearance",
+            "Кастомизация названия",
+            "Кастомизация значика приложения",
+            "Кастомизация экрана запуска"
+        ]
+    },
+    {
+        "level": "Middle 3 iOS",
+        "topic": "11. iOS. Ресурсы",
+        "details": [
+            "Растровая графика в ресурсах",
+            "Векторная графика в ресурсах",
+            "Цвета в ресурсах"
+        ]
+    },
+    {
+        "level": "Middle 3 iOS",
+        "topic": "12. iOS. Устранение утечек памяти",
+        "details": [
+            "Как сделать утечку памяти в iOS?",
+            "Поиск утечек памяти с помощью Instruments",
+            "Анализ ссылок на объекты с помощью Memory Graph"
+        ]
+    },
+    {
+        "level": "Middle 3 iOS",
+        "topic": "13. iOS. Многопоточность GCD",
+        "details": [
+            "Serial и Concurrent очереди. Глобальные очереди, qos",
+            "Синхронное и асинхронное выполнение заданий",
+            "DispatchGroup",
+            "Решение проблемы Race Condition",
+            "Решение проблемы Deadlock"
+        ]
+    },
+    {
+        "level": "Middle 3 iOS",
+        "topic": "14. iOS. Многопоточность async/await",
+        "details": [
+            "Tasks, приоритет, detached",
+            "Конструкция async/await",
+            "Вызов асинхронного кода из синхронного метода",
+            "Параллельное выполнение нескольких асинхронных функций",
+            "Асинхронные свойства",
+            "Отмена асинхронных задач",
+            "Обработка ошибок"
+        ]
+    },
+    {
+        "level": "Middle 3 iOS",
+        "topic": "15. iOS. REST-клиент",
+        "details": [
+            "Работа с JSON с помощью Codable",
+            "Отправка запросов с помощью URLSession или Alamofire"
+        ]
+    },
+    {
+        "level": "Middle 3 iOS",
+        "topic": "16. iOS. Подключение зависимостей",
+        "details": [
+            "Статические и динамические библиотеки, XCFramework",
+            "Подключение и использование библиотек",
+            "SPM. Подключение зависимостей",
+            "CocoaPods. Установка",
+            "CocoaPods. Файлы Podfile и Podfile.lock",
+            "CocoaPods. Команды pod install и pod update"
+        ]
+    },
+    {
+        "level": "Senior 1",
+        "topic": "01. CI/CD",
+        "details": [
+            "Понятие Continuous Integration",
+            "Понятие Continuous Delivery",
+            "GitLab CI. Термины: runner, pipeline, stage, job, artifact",
+            "GitLab CI. Настройка сборки в .gitlab-ci.yaml",
+            "GitLab CI. Настройка CI/CD Variables",
+            "GitLab CI. Подключение новой машины в качестве runner",
+            "Fastlane. Возможности. Настройка",
+            "Firebase App Distribution. Возможности. Настройка. Подключение тестировщиков"
+        ]
+    },
+    {
+        "level": "Senior 1",
+        "topic": "02. HTTPS",
+        "details": [
+            "Краткое описание",
+            "TLS Handshake",
+            "Атака Man-in-the-middle",
+            "SSL Pinning. Реализация в Dart",
+            "Перехват SSL трафика на мобильных устройствах с помощью HTTP Toolkit"
+        ]
+    },
+    {
+        "level": "Senior 1",
+        "topic": "03. RX",
+        "details": [
+            "Описание концепции",
+            "Observables",
+            "Single",
+            "Subject",
+            "Schedulers",
+            "Операции: map, filter, merge, zip, subscribe, flatmap, scan, distinct"
+        ]
+    },
+    {
+        "level": "Senior 1",
+        "topic": "04. WebRTC",
+        "details": [
+            "Краткое описание технологии",
+            "Проект LiveKit и библиотека livekit_client"
+        ]
+    },
+    {
+        "level": "Senior 1",
+        "topic": "05. Подготовка сборок к публикации",
+        "details": [
+            "Требования к публикации для iOS",
+            "Требования к публикации для Android",
+            "Подписание приложений iOS",
+            "Подписание приложений Android"
+        ]
+    },
+    {
+        "level": "Senior 1",
+        "topic": "06. Публикация в Google Play, Huawei AppGallery, RuStore, AppStore",
+        "details": [
+            "Публикация новой версии приложения",
+            "Время рассмотрения сборок",
+            "Возможности отложенной публикации",
+            "Возможности бета-тестирования",
+            "Формат AppBundle и его преобразование в APK",
+            "Дополнительные возможности кроме публикации"
+        ]
+    },
+    {
+        "level": "Senior 1",
+        "topic": "07. Кастомизация сборок Flutter с помощью Flavors",
+        "details": [
+            "Настройка проекта Android/iOS",
+            "Определение типа сборки",
+            "Передача информации о типе сборки во Flutter-модуль",
+            "Сборка с указанием Flavor"
+        ]
+    },
+    {
+        "level": "Senior 1",
+        "topic": "08. Публикация плагинов pub.dev",
+        "details": [
+            "Как подготовить плагин к публикации",
+            "Как опубликовать плагин"
+        ]
+    },
+    {
+        "level": "Senior 1",
+        "topic": "09. Кодогенерация",
+        "details": [
+            "Пакет freezed",
+            "Пакет json_serializable",
+            "Пакет mason",
+            "OpenAPI Generator",
+            "Dart Macros"
+        ]
+    },
+    {
+        "level": "Senior 1",
+        "topic": "10. Расчет покрытия модульными тестами",
+        "details": [
+            "Что такое code coverage",
+            "Как рассчитать покрытие тестами для проекта",
+            "Как сгенерировать отчет о покрытии тестами"
+        ]
+    },
+    {
+        "level": "Senior 1",
+        "topic": "11. Основы Python",
+        "details": [
+            "Особенности синтаксиса",
+            "Условные операторы",
+            "Циклы",
+            "Функции",
+            "Списки, множества, словари",
+            "Подключение модулей и работа с pip",
+            "Вывод текста",
+            "Чтение и запись файлов",
+            "Обработка исключений",
+            "Запуск команд bash из python-скриптов"
+        ]
+    },
+    {
+        "level": "Senior 1",
+        "topic": "12. Основы Bash",
+        "details": [
+            "Что такое bash. Аналоги. Hashbang",
+            "Получение помощи. man",
+            "Навигация по файловой системе.",
+            "Запись результатов выполнения команд в файл. stdout, stderr",
+            "Создание каталогов и файлов",
+            "Просмотр каталогов и файлов. cat, tail",
+            "Разрешения. chmod",
+            "Суперпользователь. sudo",
+            "Фильтрация вывода. grep",
+            "Поиск и остановка запущенных процессов. ps, kill",
+            "Команда echo",
+            "Условный оператор",
+            "Цикл for",
+            "Функции"
+        ]
+    },
+    {
+        "level": "Senior 1",
+        "topic": "13. Flutter. Внутреннее устройство",
+        "details": [
+            "Архтектура Flutter. Framework. Engine. Embedder",
+            "3 Trees Architecture. Widgets. Elements. Render objects. BuildContext",
+            "Bindings. SchedulerBinding. GestureBinding. RendererBinding. WidgetsBinding. ServicesBinging",
+            "Асинхронность. Event Loop. MicroTask. Event",
+            "Внутренняя реализация анимаций. Ticker и TickerProvider",
+            "Sound Null Safety. Иерархия классов для nullable и не nullable типов"
+        ]
+    },
+    {
+        "level": "Senior 1",
+        "topic": "14. Flutter. Isolates",
+        "details": [
+            "Отличия изолятов от потоков",
+            "Запуск изолятов. Isolate.run(), Isolate.spawn(), compute",
+            "Обмен сообщениями между изолятами"
+        ]
+    },
+    {
+        "level": "Senior 1",
+        "topic": "15. Flutter. Работа в фоновом режиме",
+        "details": [
+            "Headless execution",
+            "Директива @pragma(vm:entry-point)",
+            "Запуск dart-кода из приложения, запущенного в фоновом режиме. CallbackHandle",
+            "Плагин workmanager"
+        ]
+    },
+    {
+        "level": "Senior 1",
+        "topic": "16. Flutter. Фрагментные шейдеры",
+        "details": [
+            "Что такое фрагментные шейдеры и как они работают?",
+            "Загрузка и использование шейдеров во Flutter-приложении",
+            "Передача параметров из Flutter-виджета в шейдер",
+            "Как сделать фрагментный шейдер, рисующий круг, который плавно меняет свой цвет в течение времени?"
+        ]
+    },
+    {
+        "level": "Senior 1",
+        "topic": "17. Flutter. Профилирование и оптимизация",
+        "details": [
+            "Профилирование. Возможности инструментария Flutter",
+            "Профилирование. Запуск в режиме профилирования",
+            "Профилирование. Performance Overlay и Performance View. UI thread. Raster thread. Jank",
+            "Профилирование. CPU Profiler View. Поиск медленных участков кода.",
+            "Профилирование. Memory View. Определение утечек памяти. Причины утечек памяти",
+            "Профилирование. Инструменты анализа размера приложения",
+            "Оптимизация. Shader compilation jank. Причины и решение проблемы",
+            "Оптимизация. Определение областей перерисовки экрана. Виджет RepaintBoundary",
+            "Оптимизация. Impeller. Преимущества и недостатки. Включение и отключение",
+            "Оптимизация. Performance best practices"
+        ]
+    },
+    {
+        "level": "Senior 1",
+        "topic": "18. Flutter. Распространенные фреймворки и архитектуры",
+        "details": [
+            "Riverpod",
+            "Provider",
+            "GetX",
+            "Redux"
+        ]
+    },
+    {
+        "level": "Senior 2",
+        "topic": "01. MASVS",
+        "details": [
+            "Что такое MASVS",
+            "Storage",
+            "Crypto",
+            "Auth",
+            "Network",
+            "Platform",
+            "Code",
+            "Resilience",
+            "Privacy"
+        ]
+    },
+    {
+        "level": "Senior 2",
+        "topic": "02. RASP",
+        "details": [
+            "Что такое RASP и freeRASP",
+            "Интеграция freeRASP",
+            "Определение угроз"
+        ]
+    },
+    {
+        "level": "Senior 2",
+        "topic": "03. Лицензии",
+        "details": [
+            "BSD",
+            "MIT",
+            "GPL",
+            "Apache",
+            "Совместимость лицензий"
+        ]
+    },
+    {
+        "level": "Senior 2",
+        "topic": "04. Антисанкции",
+        "details": [
+            "Офлайн установка VSCode, FVM, Flutter",
+            "Инфраструктура для автономного хранения плагинов Flutter",
+            "Инфраструктура для автономного хранения Android SDK",
+            "Инфраструктура для автономного хранения артефактов Gradle"
+        ]
+    }
+]

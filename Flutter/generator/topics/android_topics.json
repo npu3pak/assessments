@@ -1,0 +1,155 @@
+[
+    {
+        "level": "Middle 3 Android",
+        "topic": "01. Android. Activity",
+        "details": [
+            "Что такое Activity",
+            "Как создать Activity с простой версткой в xml",
+            "Как запустить Activity и передать в него данные",
+            "Жизненный цикл. Запуск",
+            "Жизненный цикл. Сворачивание и разворачивание",
+            "Жизненный цикл. Переход на новый экран",
+            "Сохранение и восстановление состояния. Parcelable"
+        ]
+    },
+    {
+        "level": "Middle 3 Android",
+        "topic": "02. Android. Прочие компоненты",
+        "details": [
+            "Service",
+            "Broadcast Receiver",
+            "Intent",
+            "IntentFilter",
+            "AndroidManifest.xml"
+        ]
+    },
+    {
+        "level": "Middle 3 Android",
+        "topic": "03. Android. Shared Preferences",
+        "details": [
+            "Как фактически хранятся данные в Shared Preferences",
+            "Как работать с Shared Preferences"
+        ]
+    },
+    {
+        "level": "Middle 3 Android",
+        "topic": "04. Android. Fragment",
+        "details": [
+            "Назначение",
+            "Как создать фрагмент с простой версткой в xml",
+            "Операции над фрагментами. Fragment Manager",
+            "Жизненный цикл фрагментов"
+        ]
+    },
+    {
+        "level": "Middle 3 Android",
+        "topic": "05. Android. Activity Tasks и Launch Modes",
+        "details": [
+            "Tasks и back stack",
+            "Параметр launchMode при запуске Activity"
+        ]
+    },
+    {
+        "level": "Middle 3 Android",
+        "topic": "06. Android. Основы верстки в xml",
+        "details": [
+            "Создание верстки в xml",
+            "Использование xml-верстки в Activity и Fragment",
+            "Обработка нажатий кнопки из xml в Activity или Fragment"
+        ]
+    },
+    {
+        "level": "Middle 3 Android",
+        "topic": "07. Android. Многопоточность с помощью Coroutines",
+        "details": [
+            "Отличие от потоков",
+            "Как создать и запустить Coroutines",
+            "Как обработать результат выполнения Coroutines",
+            "Как обрабатывать ошибки выполнения Coroutines"
+        ]
+    },
+    {
+        "level": "Middle 3 Android",
+        "topic": "08. Android. REST-клиент",
+        "details": [
+            "Работа с JSON с помощью Gson, Jackson или Moshi",
+            "Отправка запросов с помощью OkHttp или Retrofit"
+        ]
+    },
+    {
+        "level": "Middle 3 Android",
+        "topic": "09. Android. Взаимодействие с другими приложениями",
+        "details": [
+            "Использование Intents для открытия других приложений",
+            "Использование IntentFilters для обработки вызовов из других приложений",
+            "AccountManager, назначение и возможности"
+        ]
+    },
+    {
+        "level": "Middle 3 Android",
+        "topic": "10. Android. Ресурсы",
+        "details": [
+            "Класс R",
+            "Загрузка строковых ресурсов",
+            "Настройка тем в ресурсах",
+            "Растровая графика в ресурсах",
+            "Векторная графика в ресурсах",
+            "Цвета в ресурсах"
+        ]
+    },
+    {
+        "level": "Middle 3 Android",
+        "topic": "11. Android. Брендирование",
+        "details": [
+            "Базовая настройка темы приложения с помощью XML",
+            "Кастомизация названия",
+            "Кастомизация значика приложения",
+            "Кастомизация экрана запуска"
+        ]
+    },
+    {
+        "level": "Middle 3 Android",
+        "topic": "12. Android. Настройка обфускации",
+        "details": [
+            "Назначение обфускации",
+            "Подключение файла с правилами обфускации proguard-rules.pro",
+            "Настройка исключений для обфускации",
+            "Как добавить и настроить эмулятор Android",
+            "Как работать с файловой системой эмулятора",
+            "Ускорение с помощью HAXM. Описание. Поддерживаемые процессоры. Настройка"
+        ]
+    },
+    {
+        "level": "Middle 3 Android",
+        "topic": "13. Android. SDK Manager",
+        "details": [
+            "Просмотр, установка и удаление установленных компонентов SDK",
+            "SDK Platforms",
+            "SDK Build Tools",
+            "NDK",
+            "Google Play Services"
+        ]
+    },
+    {
+        "level": "Middle 3 Android",
+        "topic": "14. Android. Logcat",
+        "details": [
+            "Назначение",
+            "Фильтрация логов",
+            "Уровни логирования",
+            "Логирование в Logcat"
+        ]
+    },
+    {
+        "level": "Middle 3 Android",
+        "topic": "15. Android. Gradle",
+        "details": [
+            "Назначение",
+            "Настройка версии приложения",
+            "Добавление источника для скачивания сторонних библиотек",
+            "Свойство ndk.abiFilters",
+            "Объявление Build Variants",
+            "Добавление зависимостей"
+        ]
+    }
+]

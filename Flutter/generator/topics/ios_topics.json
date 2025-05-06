@@ -1,0 +1,165 @@
+[
+    {
+        "level": "Middle 3 iOS",
+        "topic": "01. iOS. Swift",
+        "details": [
+            "Отличия class и struct",
+            "Nullable-типы и проверка на null",
+            "Конструкция guard и if let",
+            "Сильные и слабые ссылки",
+            "Замыкания"
+        ]
+    },
+    {
+        "level": "Middle 3 iOS",
+        "topic": "02. iOS. Настройка проекта",
+        "details": [
+            "Targets",
+            "Build Configurations",
+            "Build Schemes",
+            "Info.plist",
+            "Capabilities",
+            "Build Phases",
+            "Управление локализацией"
+        ]
+    },
+    {
+        "level": "Middle 3 iOS",
+        "topic": "03. iOS. Отладка",
+        "details": [
+            "Настройка break points. Остановка приложения при возникновении ошибок.",
+            "Выполнение команд p/po"
+        ]
+    },
+    {
+        "level": "Middle 3 iOS",
+        "topic": "04. iOS. ViewController",
+        "details": [
+            "Создание и запуск ViewController",
+            "Жизненный цикл ViewController",
+            "Верстка в Storyboard. Привязка UI компонентов Storyboard к ViewController",
+            "UITableViewController. Показ секций и ячеек, верстка ячеек в Storyboard, оптимизация потребления ресурсов при создании ячеек"
+        ]
+    },
+    {
+        "level": "Middle 3 iOS",
+        "topic": "05. iOS. NavigationController",
+        "details": [
+            "Навигация с помощью NavigationController. Принцип стека.",
+            "Внешний вид и поведение NavigationController при анимации",
+            "Стандартные transitions, доступные в NavigationController",
+            "Segues и передача данных при их использовании"
+        ]
+    },
+    {
+        "level": "Middle 3 iOS",
+        "topic": "06. iOS. Views",
+        "details": [
+            "Создание наследников UIView",
+            "Верстка UIView в Xib-файлах"
+        ]
+    },
+    {
+        "level": "Middle 3 iOS",
+        "topic": "07. iOS. Auto Layout",
+        "details": [
+            "Управление расположением элементов",
+            "Работа с Constraints",
+            "Hugging Priority и Compression Resistance",
+            "Size Classes"
+        ]
+    },
+    {
+        "level": "Middle 3 iOS",
+        "topic": "08. iOS. Swift UI",
+        "details": [
+            "Создание и комбинирование View",
+            "Создание превью",
+            "Построение списков",
+            "Навигация",
+            "Анимация",
+            "Ввод текста",
+            "Взаимодействие с UIKit"
+        ]
+    },
+    {
+        "level": "Middle 3 iOS",
+        "topic": "09. iOS. Хранение настроек",
+        "details": [
+            "Работа с UserDefaults",
+            "Работа с Keychain, библиотека KeychainSwift"
+        ]
+    },
+    {
+        "level": "Middle 3 iOS",
+        "topic": "10. iOS. Брендирование",
+        "details": [
+            "Базовая настройка темы приложения с помощью Appearance",
+            "Кастомизация названия",
+            "Кастомизация значика приложения",
+            "Кастомизация экрана запуска"
+        ]
+    },
+    {
+        "level": "Middle 3 iOS",
+        "topic": "11. iOS. Ресурсы",
+        "details": [
+            "Растровая графика в ресурсах",
+            "Векторная графика в ресурсах",
+            "Цвета в ресурсах"
+        ]
+    },
+    {
+        "level": "Middle 3 iOS",
+        "topic": "12. iOS. Устранение утечек памяти",
+        "details": [
+            "Как сделать утечку памяти в iOS?",
+            "Поиск утечек памяти с помощью Instruments",
+            "Анализ ссылок на объекты с помощью Memory Graph"
+        ]
+    },
+    {
+        "level": "Middle 3 iOS",
+        "topic": "13. iOS. Многопоточность GCD",
+        "details": [
+            "Serial и Concurrent очереди. Глобальные очереди, qos",
+            "Синхронное и асинхронное выполнение заданий",
+            "DispatchGroup",
+            "Решение проблемы Race Condition",
+            "Решение проблемы Deadlock"
+        ]
+    },
+    {
+        "level": "Middle 3 iOS",
+        "topic": "14. iOS. Многопоточность async/await",
+        "details": [
+            "Tasks, приоритет, detached",
+            "Конструкция async/await",
+            "Вызов асинхронного кода из синхронного метода",
+            "Параллельное выполнение нескольких асинхронных функций",
+            "Асинхронные свойства",
+            "Отмена асинхронных задач",
+            "Обработка ошибок"
+        ]
+    },
+    {
+        "level": "Middle 3 iOS",
+        "topic": "15. iOS. REST-клиент",
+        "details": [
+            "Работа с JSON с помощью Codable",
+            "Отправка запросов с помощью URLSession или Alamofire"
+        ]
+    },
+    {
+        "level": "Middle 3 iOS",
+        "topic": "16. iOS. Подключение зависимостей",
+        "details": [
+            "Статические и динамические библиотеки, XCFramework",
+            "Подключение и использование библиотек",
+            "SPM. Подключение зависимостей",
+            "CocoaPods. Установка",
+            "CocoaPods. Файлы Podfile и Podfile.lock",
+            "CocoaPods. Команды pod install и pod update"
+        ]
+    }
+]
