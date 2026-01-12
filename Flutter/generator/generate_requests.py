@@ -97,8 +97,9 @@ def create_tutorials_structure():
         print(f"Ошибка при обработке: {e}")
 
 if __name__ == "__main__":
-    # Инициализация модели
-    model = lms.llm("qwen3-14b")
+    # Инициализация модели с указанием URL LM Studio
+    client = lms.Client("192.168.1.56:1234")
+    model = client.llm.model("qwen/qwen3-coder-30b")
     
     # Создание структуры tutorials
     create_tutorials_structure()
